@@ -244,7 +244,7 @@ class App extends Component {
           <Row>
             <Col className="title">
               <br />
-              <h2>Add Element</h2>
+              <h2>Add New Item</h2>
               <br />
             </Col>
           </Row>
