@@ -194,7 +194,7 @@ class App extends Component {
           </Row>
           <Row>
             <Col>
-              <Table striped>
+              <Table striped className="table">
                 <thead>
                   <tr>
                     <th>Id</th>

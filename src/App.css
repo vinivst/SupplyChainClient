@@ -8,6 +8,11 @@
   color: white;
 }
 
+.table thead th,
+tbody td {
+  color: white;
+}
+
 .App-logo {
   height: 40vmin;
 }
