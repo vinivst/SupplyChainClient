@@ -102,8 +102,10 @@ class App extends Component {
           .items(evt.returnValues._itemIndex)
           .call();
         console.log(item);
-        items.push(item);
-        alert('Item ' + item._identifier + ' created!');
+        if (!items.includes(item)) {
+          items.push(item);
+          alert('Item ' + item._identifier + ' created!');
+        }
       }
       //console.log(evt);
       //console.log(items);
